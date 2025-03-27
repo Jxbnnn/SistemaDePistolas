@@ -57,7 +57,7 @@ public class GestionPistolas {
 
         int id;
         while (true) {
-            System.out.print("Ingrese el ID de la pistola (solo números): ");
+            System.out.print("Ingrese el ID de la pistola (números): ");
             if (scanner.hasNextInt()) {
                 id = scanner.nextInt();
                 scanner.nextLine();
